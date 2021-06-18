@@ -1,0 +1,3 @@
+### Microsoft Office ###
+# Ignores all temporary files made for word document, excel sheet, etc. 
+~$*
