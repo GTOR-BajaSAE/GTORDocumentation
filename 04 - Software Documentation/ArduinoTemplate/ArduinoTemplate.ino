@@ -42,12 +42,13 @@
 #include "LEDControl.h"
 
 /* -- Pin Definitions and Constants -- */
-// Change these definitions to change the mode that it operates in (only one should be uncommented at a time)
-#define NORMAL_MODE  // Send data over serial to DAATA application
-//#define DEBUG_AUTO   // Send debug information as print statements
-//#define DEBUG_MANUAL // Send debug information automatically collected from sensors to serial monitor
+// Change this definitions to change the mode that it operates in (only one should be uncommented at a time)
+// 1 = Send data over serial to DAATA application
+// 2 = Send debug information as print statements
+// 3 = Send debug information automatically collected from sensors to serial monitor
+#define OPERATION_MODE 1 // Send data over serial to DAATA application
 
-//#define SD_CONNECTED // Change this to true if you want to use an SD Card
+#define SD_CONNECTED false // Change this to true if you want to use an SD Card
 
 // If using aux daq then use the aux daq pin definition file
 #define TEENSY_LED_PIN 13 // Don't use if using SPI sensors
@@ -56,7 +57,7 @@
 /* -- Object Creation -- */
 // Communication Objects
 SerialComms serial(Serial);
-#ifdef SD_CONNECTED
+#if SD_CONNECTED
 SDComms sdcomm(BUILTIN_SDCARD);
 #endif
 
@@ -84,7 +85,7 @@ void setup() {
   serial.begin();
   serial.attach_output_block(time_sensor, TIME_GENERIC);
 
-  #ifdef SD_CONNECTED
+  #if SD_CONNECTED
   sdcomm.begin(NULL);
   sdcomm.attach_output_block(time_sensor, TIME_GENERIC);
   #endif
@@ -115,18 +116,16 @@ void loop() {
   teensy_led.update();
 
   // Update Communication Utilities
-  #ifdef NORMAL_MODE
-  serial.update();
-  #endif
-  #ifdef SD_CONNECTED
+  #if SD_CONNECTED
   sdcomm.update();
   #endif
+  #if OPERATION_MODE == 1
+  serial.update();
 
   // Debug
-  #ifdef DEBUG_AUTO
+  #elif OPERATION_MODE == 2
   serial.update_monitor();
-  #endif
-  #ifdef DEBUG_MANUAL
+  #elif OPERATION_MODE == 3
   if(debug.ready(current_time)){
     Serial.println("Debug message...");
   }
