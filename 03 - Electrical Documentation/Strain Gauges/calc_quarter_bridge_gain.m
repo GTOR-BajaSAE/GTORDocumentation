@@ -4,7 +4,7 @@ clc
 
 % Strain gauge specifications
 gf = 2;  % gauge factor
-emax = 30000e-6; % max strain
+emax = 30000e-6; % max strain   
 rgauge = 350;    % resistance of the strain gauge
 
 % PCB variables
