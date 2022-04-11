@@ -5122,6 +5122,103 @@
 <wire x1="-2.032" y1="0" x2="-0.508" y2="0" width="0.254" layer="97"/>
 <wire x1="-0.508" y1="0" x2="-0.508" y2="-1.016" width="0.254" layer="97"/>
 </symbol>
+<symbol name="LIPO_BATT">
+<pin name="1" x="-17.78" y="0" visible="off" length="point" rot="R180"/>
+<pin name="2" x="-17.78" y="2.54" visible="off" length="point" rot="R180"/>
+<text x="-17.78" y="0" size="1.27" layer="97" rot="R270" align="center">1</text>
+<text x="-17.78" y="2.54" size="1.27" layer="97" rot="R90" align="center">2</text>
+<circle x="-17.78" y="2.54" radius="1.016" width="0.1524" layer="97"/>
+<circle x="-17.78" y="0" radius="1.016" width="0.1524" layer="97"/>
+<wire x1="-16.256" y1="2.54" x2="-16.256" y2="1.524" width="0.1524" layer="97"/>
+<wire x1="-16.256" y1="1.524" x2="-16.256" y2="1.016" width="0.1524" layer="97"/>
+<wire x1="-16.256" y1="1.016" x2="-16.256" y2="0" width="0.1524" layer="97"/>
+<wire x1="-16.256" y1="0" x2="-17.78" y2="-1.524" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-17.78" y1="-1.524" x2="-19.304" y2="0" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-19.304" y1="0" x2="-19.304" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-19.304" y1="2.54" x2="-17.78" y2="4.064" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-17.78" y1="4.064" x2="-16.256" y2="2.54" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-16.256" y1="1.524" x2="-15.748" y2="1.524" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="1.524" x2="-15.748" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="2.54" x2="-16.256" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-16.256" y1="1.016" x2="-15.748" y2="1.016" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="1.016" x2="-15.748" y2="0" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="0" x2="-16.256" y2="0" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="2.54" x2="-15.748" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="1.524" x2="-15.748" y2="1.016" width="0.1524" layer="97"/>
+<wire x1="-15.748" y1="0" x2="-15.24" y2="0" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="0" x2="-14.986" y2="0" width="0.1524" layer="97"/>
+<wire x1="-14.986" y1="0" x2="-14.986" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-14.986" y1="2.54" x2="-15.24" y2="2.54" width="0.1524" layer="97"/>
+<wire x1="-19.304" y1="3.048" x2="-19.685" y2="3.048" width="0.1524" layer="97"/>
+<wire x1="-19.685" y1="3.048" x2="-19.685" y2="-0.508" width="0.1524" layer="97"/>
+<wire x1="-19.685" y1="-0.508" x2="-19.304" y2="-0.508" width="0.1524" layer="97"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="97"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.1524" layer="97"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="97"/>
+<text x="-12.7" y="2.54" size="1.778" layer="97">Li-Po Battery</text>
+<text x="-12.7" y="0" size="1.778" layer="97">&gt;VALUE</text>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.1524" layer="97"/>
+<wire x1="-12.69239375" y1="-0.240215625" x2="-12.916190625" y2="-0.0960875" width="0.1524" layer="97"/>
+<wire x1="-12.916190625" y1="-0.0960875" x2="-14.754509375" y2="-0.304275" width="0.1524" layer="97" curve="78.486494"/>
+<wire x1="-14.754509375" y1="-0.304275" x2="-16.321078125" y2="-0.592534375" width="0.1524" layer="97" curve="-70.556609"/>
+<wire x1="-16.592828125" y1="-1.008909375" x2="-16.353046875" y2="-1.104996875" width="0.1524" layer="97"/>
+<wire x1="-16.353046875" y1="-1.104996875" x2="-14.195021875" y2="-0.592534375" width="0.1524" layer="97" curve="70.391881"/>
+<wire x1="-14.195021875" y1="-0.592534375" x2="-13.395753125" y2="-0.496446875" width="0.1524" layer="97" curve="-83.398695"/>
+<wire x1="-13.395753125" y1="-0.496446875" x2="-12.724365625" y2="-0.896809375" width="0.1524" layer="97" curve="8.071259"/>
+<wire x1="-16.285903125" y1="2.964865625" x2="-16.1286875" y2="3.131640625" width="0.1524" layer="94"/>
+<wire x1="-16.1286875" y1="3.131640625" x2="-14.722975" y2="2.97413125" width="0.1524" layer="94" curve="-106.166689"/>
+<wire x1="-14.722975" y1="2.97413125" x2="-13.428240625" y2="1.704796875" width="0.1524" layer="94" curve="30.0886"/>
+<wire x1="-13.428240625" y1="1.704796875" x2="-12.762378125" y2="1.56581875" width="0.1524" layer="94" curve="35.197328"/>
+<wire x1="-16.5849375" y1="3.454990625" x2="-16.1869" y2="3.820421875" width="0.1524" layer="94"/>
+<wire x1="-16.1869" y1="3.820421875" x2="-14.727425" y2="3.8868625" width="0.1524" layer="94" curve="-79.895906"/>
+<wire x1="-14.727425" y1="3.8868625" x2="-13.898178125" y2="2.857009375" width="0.1524" layer="94" curve="-27.634345"/>
+<wire x1="-13.898178125" y1="2.857009375" x2="-12.73723125" y2="2.126146875" width="0.1524" layer="94" curve="65.567553"/>
+</symbol>
+<symbol name="METRIPACK_3PIN_FEMALE">
+<pin name="1" x="-2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<pin name="2" x="2.54" y="2.54" visible="off" length="point" rot="R270"/>
+<text x="2.54" y="2.54" size="0.6096" layer="97" align="center">A</text>
+<text x="0" y="0" size="0.6096" layer="97" align="center">C</text>
+<text x="-2.54" y="2.54" size="0.6096" layer="97" align="center">B</text>
+<pin name="3" x="0" y="0" visible="off" length="point" rot="R270"/>
+<wire x1="-3.789296875" y1="7.027546875" x2="4.084703125" y2="7.027546875" width="0.1524" layer="97"/>
+<wire x1="4.084703125" y1="7.027546875" x2="4.084703125" y2="4.614546875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="7.027546875" x2="-3.789296875" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="7.535546875" x2="-2.392296875" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="-2.392296875" y1="7.535546875" x2="-2.265296875" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="-2.265296875" y1="7.535546875" x2="2.560703125" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="2.560703125" y1="7.535546875" x2="2.687703125" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="2.687703125" y1="7.535546875" x2="4.084703125" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="4.084703125" y1="7.535546875" x2="4.084703125" y2="7.027546875" width="0.1524" layer="97"/>
+<wire x1="-2.265296875" y1="6.087746875" x2="-2.265296875" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="2.560703125" y1="6.011546875" x2="2.560703125" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="7.535546875" x2="-3.789296875" y2="8.653146875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="8.653146875" x2="4.084703125" y2="8.653146875" width="0.1524" layer="97"/>
+<wire x1="4.084703125" y1="8.653146875" x2="4.084703125" y2="7.535546875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="8.653146875" x2="-3.789296875" y2="8.907146875" width="0.1524" layer="97"/>
+<wire x1="-3.789296875" y1="8.907146875" x2="4.084703125" y2="8.907146875" width="0.1524" layer="97"/>
+<wire x1="4.084703125" y1="8.907146875" x2="4.084703125" y2="8.653146875" width="0.1524" layer="97"/>
+<wire x1="-2.392296875" y1="7.535546875" x2="-2.519296875" y2="7.662546875" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-2.519296875" y1="7.662546875" x2="-2.519296875" y2="8.018146875" width="0.1524" layer="97"/>
+<wire x1="-2.519296875" y1="8.018146875" x2="-2.392296875" y2="8.145146875" width="0.1524" layer="97" curve="-90"/>
+<wire x1="-2.392296875" y1="8.145146875" x2="2.687703125" y2="8.145146875" width="0.1524" layer="97"/>
+<wire x1="2.687703125" y1="8.145146875" x2="2.814703125" y2="8.018146875" width="0.1524" layer="97" curve="-90"/>
+<wire x1="2.814703125" y1="8.018146875" x2="2.814703125" y2="7.662546875" width="0.1524" layer="97"/>
+<wire x1="2.814703125" y1="7.662546875" x2="2.687703125" y2="7.535546875" width="0.1524" layer="97" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="5.08" width="0.1524" layer="97" curve="143.130094"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="5.08" width="0.1524" layer="97" curve="-143.130094"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="97"/>
+<circle x="0.040696875" y="1.7703375" radius="4.9064875" width="0.1524" layer="97"/>
+<wire x1="-3.789053125" y1="7.048025" x2="-3.789053125" y2="4.914425" width="0.1524" layer="97"/>
+<wire x1="0.762" y1="6.604" x2="-0.762" y2="6.604" width="0.1524" layer="97" curve="-180"/>
+<circle x="0" y="3.937" radius="0.179603125" width="0.0762" layer="97"/>
+<circle x="-2.159" y="0.127" radius="0.179603125" width="0.0762" layer="97"/>
+<circle x="2.032" y="0.127" radius="0.179603125" width="0.0762" layer="97"/>
+<circle x="2.54" y="2.54" radius="0.5388125" width="0.0762" layer="97"/>
+<circle x="-2.54" y="2.54" radius="0.5388125" width="0.0762" layer="97"/>
+<circle x="0" y="0" radius="0.5388125" width="0.0762" layer="97"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MICROFIT_1X3_FEMALE">
@@ -5789,6 +5886,50 @@ Item URL: &lt;a href&gt;https://www.digikey.com/en/products/detail/molex/0643201
 <connect gate="G$1" pin="6" pad="P$3"/>
 <connect gate="G$1" pin="7" pad="P$4"/>
 <connect gate="G$1" pin="8" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LIPO_BATT">
+<gates>
+<gate name="G$1" symbol="LIPO_BATT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PINS_200">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="METRIPACK_3PIN_FEMALE">
+<description>Description: Brake pressure transducer connector Aptiv 12110192&lt;br&gt;
+Manufacturer Part Number: 829-12110192&lt;br&gt;
+Manufacturer: Aptiv&lt;br&gt;
+Vendor: Mouser&lt;br&gt;
+Pins: 3&lt;br&gt;
+Crimp Type: Female&lt;br&gt;
+Waterproof: Yes&lt;br&gt;
+Item URL: &lt;a href&gt;https://www.mouser.com/ProductDetail/Aptiv-formerly-Delphi/12110192/?qs=JdmRl75CwToVcuEd41g61Q%3D%3D&lt;/a&gt;
+
+&lt;br&gt;&lt;br&gt;
+This connector accompanies the &lt;a href="https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/MLH02KPSB06A/1248869"&gt;480-2534-ND&lt;/a&gt; brake pressure transducer.</description>
+<gates>
+<gate name="G$1" symbol="METRIPACK_3PIN_FEMALE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PINS_3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
