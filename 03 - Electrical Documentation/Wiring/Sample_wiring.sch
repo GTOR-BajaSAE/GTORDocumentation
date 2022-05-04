@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5008,7 +5008,7 @@ Below floorboard</text>
 <instance part="U$11" gate="G$1" x="121.92" y="-73.66" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
 <instance part="U$12" gate="G$1" x="15.24" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
 <instance part="U$13" gate="G$1" x="73.66" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$15" gate="G$1" x="88.9" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$15" gate="G$1" x="93.98" y="-144.78" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
 <instance part="U$16" gate="G$1" x="139.7" y="-144.78" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
 <instance part="U$17" gate="G$1" x="22.86" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
 <instance part="U$19" gate="G$1" x="43.18" y="-144.78" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
@@ -5256,26 +5256,26 @@ Below floorboard</text>
 <pinref part="U$19" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="-132.08" x2="91.44" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <wire x1="40.64" y1="-142.24" x2="40.64" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<pinref part="U$15" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-142.24" x2="91.44" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$32" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="-119.38" x2="116.84" y2="-111.76" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <wire x1="116.84" y1="-111.76" x2="63.5" y2="-111.76" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <wire x1="63.5" y1="-111.76" x2="63.5" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <junction x="63.5" y="-132.08" grouprefs="BRAKELIGHT_SWITCHES"/>
+<pinref part="U$15" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="-142.24" x2="91.44" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="116.84" y1="-154.94" x2="91.44" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$19" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="-154.94" x2="91.44" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <wire x1="91.44" y1="-154.94" x2="40.64" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <wire x1="40.64" y1="-144.78" x2="40.64" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<pinref part="U$15" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="-144.78" x2="91.44" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<junction x="91.44" y="-154.94" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$20" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="-144.78" x2="116.84" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<pinref part="U$15" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="-144.78" x2="91.44" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="91.44" y="-154.94"/>
 </segment>
 </net>
 <net name="N$37" class="0">
