@@ -4966,7 +4966,7 @@ Item URL: &lt;a href&gt;https://www.digikey.com/en/products/detail/molex/0436450
 <sheets>
 <sheet>
 <plain>
-<text x="-22.86" y="-17.78" size="1.778" layer="97" align="top-left">Location:
+<text x="-7.62" y="5.08" size="1.778" layer="97" align="top-left">Location:
 Top left chassis tube</text>
 <text x="-22.86" y="63.5" size="1.778" layer="97" align="top-left" grouprefs="LDS_WHEELS">Location:
 Above front left wheel</text>
@@ -4982,38 +4982,42 @@ Engine</text>
 Transfer case cover</text>
 <text x="147.32" y="63.5" size="1.778" layer="97" align="top-left" grouprefs="SPEED_SENSORS">Location:
 Along the spark plug wire</text>
-<text x="60.96" y="-78.74" size="1.778" layer="97" align="top-left" grouprefs="KILLSWITCHES">Location:
+<text x="63.5" y="-106.68" size="1.778" layer="97" align="top-left" grouprefs="KILLSWITCHES">Location:
 In front of right wing</text>
-<text x="2.54" y="-78.74" size="1.778" layer="97" align="top-left" grouprefs="KILLSWITCHES">Location:
+<text x="5.08" y="-106.68" size="1.778" layer="97" align="top-left" grouprefs="KILLSWITCHES">Location:
 By left elbow of driver</text>
-<text x="7.62" y="-147.32" size="1.778" layer="97" align="top-left" grouprefs="BRAKELIGHT_SWITCHES">Location:
+<text x="5.08" y="-167.64" size="1.778" layer="97" align="top-left" grouprefs="BRAKELIGHT_SWITCHES">Location:
 Brake line</text>
-<text x="58.42" y="-147.32" size="1.778" layer="97" align="top-left" grouprefs="BRAKELIGHT_SWITCHES">Location:
+<text x="55.88" y="-167.64" size="1.778" layer="97" align="top-left" grouprefs="BRAKELIGHT_SWITCHES">Location:
 Brake line</text>
 <text x="147.32" y="-12.7" size="1.778" layer="97" align="top-left">Location:
 Below floorboard</text>
 <text x="147.32" y="-35.56" size="1.778" layer="97" align="top-left">Location:
 Below floorboard</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="97" align="top-left">Location:
+Brake pedal</text>
+<text x="-7.62" y="-38.1" size="1.778" layer="97" align="top-left">Location:
+Gas pedal</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="-129.54" y="104.14" smashed="yes" grouprefs="DASHBOARD"/>
 <instance part="U$3" gate="G$1" x="-83.82" y="-114.3" smashed="yes" grouprefs="REAR_FIREWALL"/>
-<instance part="U$5" gate="G$1" x="76.2" y="-73.66" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
-<instance part="U$4" gate="G$1" x="68.58" y="-76.2" smashed="yes" rot="R180" grouprefs="KILLSWITCHES"/>
-<instance part="U$6" gate="G$1" x="101.6" y="-76.2" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
-<instance part="U$7" gate="G$1" x="147.32" y="-76.2" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
-<instance part="U$8" gate="G$1" x="17.78" y="-73.66" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
-<instance part="U$9" gate="G$1" x="10.16" y="-76.2" smashed="yes" rot="R180" grouprefs="KILLSWITCHES"/>
-<instance part="U$10" gate="G$1" x="43.18" y="-76.2" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
-<instance part="U$11" gate="G$1" x="121.92" y="-73.66" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
-<instance part="U$12" gate="G$1" x="15.24" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$13" gate="G$1" x="73.66" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$15" gate="G$1" x="88.9" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$16" gate="G$1" x="139.7" y="-144.78" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$17" gate="G$1" x="22.86" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$19" gate="G$1" x="43.18" y="-144.78" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$20" gate="G$1" x="114.3" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$18" gate="G$1" x="66.04" y="-142.24" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$5" gate="G$1" x="78.74" y="-101.6" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
+<instance part="U$4" gate="G$1" x="71.12" y="-104.14" smashed="yes" rot="R180" grouprefs="KILLSWITCHES"/>
+<instance part="U$6" gate="G$1" x="104.14" y="-104.14" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
+<instance part="U$7" gate="G$1" x="149.86" y="-104.14" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
+<instance part="U$8" gate="G$1" x="20.32" y="-101.6" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
+<instance part="U$9" gate="G$1" x="12.7" y="-104.14" smashed="yes" rot="R180" grouprefs="KILLSWITCHES"/>
+<instance part="U$10" gate="G$1" x="45.72" y="-104.14" smashed="yes" rot="R270" grouprefs="KILLSWITCHES"/>
+<instance part="U$11" gate="G$1" x="124.46" y="-101.6" smashed="yes" rot="R90" grouprefs="KILLSWITCHES"/>
+<instance part="U$12" gate="G$1" x="12.7" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$13" gate="G$1" x="71.12" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$15" gate="G$1" x="86.36" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$16" gate="G$1" x="137.16" y="-165.1" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$17" gate="G$1" x="20.32" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$19" gate="G$1" x="40.64" y="-165.1" smashed="yes" rot="R270" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$20" gate="G$1" x="111.76" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$18" gate="G$1" x="63.5" y="-162.56" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
 <instance part="LDS_FRONTLEFT" gate="G$1" x="-15.24" y="71.12" smashed="yes" grouprefs="LDS_WHEELS">
 <attribute name="NAME" x="-22.86" y="66.04" size="1.778" layer="95" align="top-left"/>
 </instance>
@@ -5030,18 +5034,18 @@ Below floorboard</text>
 <instance part="U$14" gate="G$1" x="-7.62" y="48.26" smashed="yes" rot="R90" grouprefs="LDS_WHEELS"/>
 <instance part="U$21" gate="G$1" x="45.72" y="71.12" smashed="yes" rot="R90" grouprefs="LDS_WHEELS"/>
 <instance part="U$22" gate="G$1" x="45.72" y="48.26" smashed="yes" rot="R90" grouprefs="LDS_WHEELS"/>
-<instance part="U$23" gate="G$1" x="0" y="-7.62" smashed="yes" rot="R90"/>
-<instance part="IMU" gate="G$1" x="-12.7" y="-10.16" smashed="yes">
-<attribute name="NAME" x="-22.86" y="-15.24" size="1.778" layer="95" align="top-left"/>
+<instance part="U$23" gate="G$1" x="15.24" y="15.24" smashed="yes" rot="R90"/>
+<instance part="IMU" gate="G$1" x="2.54" y="12.7" smashed="yes">
+<attribute name="NAME" x="-7.62" y="7.62" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="PEDAL_BRAKE_POT" gate="G$1" x="48.26" y="-2.54" smashed="yes">
-<attribute name="NAME" x="40.64" y="-7.62" size="1.778" layer="95" align="top-left"/>
+<instance part="PEDAL_BRAKE_POT" gate="G$1" x="0" y="-10.16" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-15.24" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="U$24" gate="G$1" x="55.88" y="-2.54" smashed="yes" rot="R90"/>
-<instance part="PEDAL_GAS_POT" gate="G$1" x="48.26" y="-27.94" smashed="yes">
-<attribute name="NAME" x="40.64" y="-33.02" size="1.778" layer="95" align="top-left"/>
+<instance part="U$24" gate="G$1" x="7.62" y="-10.16" smashed="yes" rot="R90"/>
+<instance part="PEDAL_GAS_POT" gate="G$1" x="0" y="-30.48" smashed="yes">
+<attribute name="NAME" x="-7.62" y="-35.56" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="U$25" gate="G$1" x="55.88" y="-27.94" smashed="yes" rot="R90"/>
+<instance part="U$25" gate="G$1" x="7.62" y="-30.48" smashed="yes" rot="R90"/>
 <instance part="U$26" gate="G$1" x="190.5" y="68.58" smashed="yes" rot="R90" grouprefs="SPEED_SENSORS"/>
 <instance part="FREQ_SENSOR_ENGINE" gate="G$1" x="167.64" y="20.32" smashed="yes" grouprefs="SPEED_SENSORS">
 <attribute name="NAME" x="160.02" y="15.24" size="1.778" layer="95" align="top-left"/>
@@ -5054,17 +5058,17 @@ Below floorboard</text>
 <instance part="ENGINE_TACH_PCB" gate="G$1" x="160.02" y="71.12" smashed="yes" grouprefs="SPEED_SENSORS">
 <attribute name="NAME" x="147.32" y="66.04" size="1.778" layer="95" align="top-left"/>
 </instance>
-<instance part="U$29" gate="G$1" x="144.78" y="-121.92" smashed="yes" grouprefs="BRAKELIGHT_SWITCHES">
-<attribute name="VALUE" x="132.08" y="-121.92" size="1.778" layer="97"/>
+<instance part="U$29" gate="G$1" x="142.24" y="-142.24" smashed="yes" grouprefs="BRAKELIGHT_SWITCHES">
+<attribute name="VALUE" x="129.54" y="-142.24" size="1.778" layer="97"/>
 </instance>
-<instance part="U$30" gate="G$1" x="-134.62" y="25.4" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-121.92" y="25.4" size="1.778" layer="97" rot="R180"/>
+<instance part="U$30" gate="G$1" x="-124.46" y="20.32" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-111.76" y="20.32" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="U$31" gate="G$1" x="-190.5" y="66.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-177.8" y="66.04" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="U$32" gate="G$1" x="114.3" y="-119.38" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
-<instance part="U$33" gate="G$1" x="20.32" y="-7.62" smashed="yes" rot="R270"/>
+<instance part="U$32" gate="G$1" x="111.76" y="-139.7" smashed="yes" rot="R90" grouprefs="BRAKELIGHT_SWITCHES"/>
+<instance part="U$33" gate="G$1" x="35.56" y="15.24" smashed="yes" rot="R270"/>
 <instance part="U$34" gate="G$1" x="203.2" y="71.12" smashed="yes" rot="R270" grouprefs="SPEED_SENSORS"/>
 <instance part="U$35" gate="G$1" x="203.2" y="45.72" smashed="yes" rot="R270" grouprefs="SPEED_SENSORS"/>
 <instance part="U$36" gate="G$1" x="203.2" y="20.32" smashed="yes" rot="R270" grouprefs="SPEED_SENSORS"/>
@@ -5072,8 +5076,8 @@ Below floorboard</text>
 <instance part="U$38" gate="G$1" x="5.08" y="48.26" smashed="yes" rot="R270" grouprefs="LDS_WHEELS"/>
 <instance part="U$39" gate="G$1" x="58.42" y="71.12" smashed="yes" rot="R270" grouprefs="LDS_WHEELS"/>
 <instance part="U$40" gate="G$1" x="58.42" y="48.26" smashed="yes" rot="R270" grouprefs="LDS_WHEELS"/>
-<instance part="U$41" gate="G$1" x="71.12" y="-2.54" smashed="yes" rot="R270"/>
-<instance part="U$42" gate="G$1" x="71.12" y="-27.94" smashed="yes" rot="R270"/>
+<instance part="U$41" gate="G$1" x="22.86" y="-10.16" smashed="yes" rot="R270"/>
+<instance part="U$42" gate="G$1" x="22.86" y="-30.48" smashed="yes" rot="R270"/>
 <instance part="U$43" gate="G$1" x="-129.54" y="0" smashed="yes" rot="R90"/>
 <instance part="U$44" gate="G$1" x="-134.62" y="-7.62" smashed="yes" rot="R90"/>
 <instance part="U$45" gate="G$1" x="-129.54" y="-15.24" smashed="yes" rot="R90"/>
@@ -5092,42 +5096,42 @@ Below floorboard</text>
 <busses>
 <bus name="B$8">
 <segment>
-<wire x1="22.86" y1="-74.93" x2="38.1" y2="-74.93" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
+<wire x1="25.4" y1="-102.87" x2="40.64" y2="-102.87" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
 </segment>
 </bus>
 <bus name="B$9">
 <segment>
-<wire x1="81.28" y1="-74.93" x2="96.52" y2="-74.93" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
+<wire x1="83.82" y1="-102.87" x2="99.06" y2="-102.87" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
 </segment>
 </bus>
 <bus name="B$10">
 <segment>
-<wire x1="127" y1="-74.93" x2="142.24" y2="-74.93" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
+<wire x1="129.54" y1="-102.87" x2="144.78" y2="-102.87" width="0.762" layer="92" grouprefs="KILLSWITCHES"/>
 </segment>
 </bus>
 <bus name="B$11">
 <segment>
-<wire x1="119.38" y1="-143.51" x2="134.62" y2="-143.51" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="116.84" y1="-163.83" x2="132.08" y2="-163.83" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </bus>
 <bus name="B$12">
 <segment>
-<wire x1="88.9" y1="-143.51" x2="78.74" y2="-143.51" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="86.36" y1="-163.83" x2="76.2" y2="-163.83" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </bus>
 <bus name="B$2">
 <segment>
-<wire x1="27.94" y1="-143.51" x2="38.1" y2="-143.51" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="25.4" y1="-163.83" x2="35.56" y2="-163.83" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </bus>
 <bus name="B$3">
 <segment>
-<wire x1="119.38" y1="-120.65" x2="124.46" y2="-120.65" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="116.84" y1="-140.97" x2="121.92" y2="-140.97" width="0.762" layer="92" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </bus>
 <bus name="B$1">
 <segment>
-<wire x1="7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.762" layer="92"/>
+<wire x1="22.86" y1="15.24" x2="27.94" y2="15.24" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$4">
@@ -5167,12 +5171,12 @@ Below floorboard</text>
 </bus>
 <bus name="B$17">
 <segment>
-<wire x1="60.96" y1="-27.94" x2="66.04" y2="-27.94" width="0.762" layer="92"/>
+<wire x1="12.7" y1="-30.48" x2="17.78" y2="-30.48" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$18">
 <segment>
-<wire x1="60.96" y1="-2.54" x2="66.04" y2="-2.54" width="0.762" layer="92"/>
+<wire x1="12.7" y1="-10.16" x2="17.78" y2="-10.16" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$7">
@@ -5209,6 +5213,9 @@ Below floorboard</text>
 <segment>
 <wire x1="162.56" y1="-27.94" x2="157.48" y2="-27.94" width="0.762" layer="92"/>
 </segment>
+<segment>
+<wire x1="162.56" y1="-5.08" x2="157.48" y2="-5.08" width="0.762" layer="92"/>
+</segment>
 </bus>
 </busses>
 <nets>
@@ -5219,63 +5226,63 @@ Below floorboard</text>
 <label x="144.78" y="73.66" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="SPEED_SENSORS"/>
 </segment>
 <segment>
-<label x="157.48" y="-76.2" size="1.778" layer="95" xref="yes" grouprefs="KILLSWITCHES"/>
+<label x="160.02" y="-104.14" size="1.778" layer="95" xref="yes" grouprefs="KILLSWITCHES"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="-76.2" x2="144.78" y2="-76.2" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="160.02" y1="-104.14" x2="147.32" y2="-104.14" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="40.64" y1="-63.5" x2="99.06" y2="-63.5" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="43.18" y1="-91.44" x2="101.6" y2="-91.44" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 <pinref part="U$6" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="-63.5" x2="124.46" y2="-63.5" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
-<wire x1="99.06" y1="-73.66" x2="99.06" y2="-63.5" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
-<junction x="99.06" y="-63.5" grouprefs="KILLSWITCHES"/>
+<wire x1="101.6" y1="-91.44" x2="127" y2="-91.44" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="101.6" y1="-101.6" x2="101.6" y2="-91.44" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<junction x="101.6" y="-91.44" grouprefs="KILLSWITCHES"/>
 <pinref part="U$11" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="-73.66" x2="124.46" y2="-63.5" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="127" y1="-101.6" x2="127" y2="-91.44" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 <pinref part="U$10" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="-73.66" x2="40.64" y2="-63.5" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="43.18" y1="-101.6" x2="43.18" y2="-91.44" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="124.46" y1="-86.36" x2="99.06" y2="-86.36" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="127" y1="-114.3" x2="101.6" y2="-114.3" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 <pinref part="U$6" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="-86.36" x2="40.64" y2="-86.36" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
-<wire x1="99.06" y1="-86.36" x2="99.06" y2="-76.2" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
-<junction x="99.06" y="-86.36" grouprefs="KILLSWITCHES"/>
+<wire x1="101.6" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="101.6" y1="-114.3" x2="101.6" y2="-104.14" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<junction x="101.6" y="-114.3" grouprefs="KILLSWITCHES"/>
 <pinref part="U$11" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="-76.2" x2="124.46" y2="-86.36" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="127" y1="-104.14" x2="127" y2="-114.3" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 <pinref part="U$10" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-76.2" x2="40.64" y2="-86.36" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="43.18" y1="-104.14" x2="43.18" y2="-114.3" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="40.64" y1="-132.08" x2="63.5" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="38.1" y1="-152.4" x2="60.96" y2="-152.4" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$19" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="-132.08" x2="91.44" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<wire x1="40.64" y1="-142.24" x2="40.64" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="60.96" y1="-152.4" x2="88.9" y2="-152.4" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="38.1" y1="-162.56" x2="38.1" y2="-152.4" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$15" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-142.24" x2="91.44" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="88.9" y1="-162.56" x2="88.9" y2="-152.4" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$32" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="-119.38" x2="116.84" y2="-111.76" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<wire x1="116.84" y1="-111.76" x2="63.5" y2="-111.76" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<wire x1="63.5" y1="-111.76" x2="63.5" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<junction x="63.5" y="-132.08" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="114.3" y1="-139.7" x2="114.3" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="114.3" y1="-132.08" x2="60.96" y2="-132.08" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="60.96" y1="-132.08" x2="60.96" y2="-152.4" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<junction x="60.96" y="-152.4" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="116.84" y1="-154.94" x2="91.44" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="114.3" y1="-175.26" x2="88.9" y2="-175.26" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$19" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="-154.94" x2="40.64" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<wire x1="40.64" y1="-144.78" x2="40.64" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="88.9" y1="-175.26" x2="38.1" y2="-175.26" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="38.1" y1="-165.1" x2="38.1" y2="-175.26" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$15" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="-144.78" x2="91.44" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
-<junction x="91.44" y="-154.94" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="88.9" y1="-165.1" x2="88.9" y2="-175.26" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<junction x="88.9" y="-175.26" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$20" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="-144.78" x2="116.84" y2="-154.94" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="114.3" y1="-165.1" x2="114.3" y2="-175.26" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -5302,54 +5309,54 @@ Below floorboard</text>
 <net name="B$1" class="0">
 <segment>
 <pinref part="IMU" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="-7.62" x2="3.8226125" y2="-6.3626125" width="0.1524" layer="91"/>
-<wire x1="3.8226125" y1="-6.3626125" x2="3.8226125" y2="-2.561534375" width="0.1524" layer="91"/>
-<wire x1="3.8226125" y1="-2.561534375" x2="1.261078125" y2="0" width="0.1524" layer="91"/>
-<wire x1="1.261078125" y1="0" x2="0" y2="0" width="0.1524" layer="91"/>
-<wire x1="0" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="15.24" x2="19.0626125" y2="16.4973875" width="0.1524" layer="91"/>
+<wire x1="19.0626125" y1="16.4973875" x2="19.0626125" y2="20.298465625" width="0.1524" layer="91"/>
+<wire x1="19.0626125" y1="20.298465625" x2="16.501078125" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="16.501078125" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="3"/>
-<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-2.54" x2="3.192078125" y2="-3.192078125" width="0.1524" layer="91"/>
-<wire x1="3.192078125" y1="-3.192078125" x2="3.192078125" y2="-8.51216875" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="20.32" x2="18.432078125" y2="19.667921875" width="0.1524" layer="91"/>
+<wire x1="18.432078125" y1="19.667921875" x2="18.432078125" y2="14.34783125" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="3"/>
-<wire x1="3.192078125" y1="-8.51216875" x2="4.839909375" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="4.839909375" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="18.432078125" y1="14.34783125" x2="20.079909375" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="20.079909375" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="4"/>
-<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="4"/>
-<wire x1="-2.54" y1="-7.62" x2="0" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="15.24" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="5"/>
-<wire x1="-5.08" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="5"/>
-<wire x1="-2.54" y1="-10.16" x2="0" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="0" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="12.7" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="6"/>
-<wire x1="-5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="6"/>
-<wire x1="2.54" y1="-10.16" x2="0" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="0" y1="-10.16" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="12.7" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPARK_PLUG_WIRE" class="0">
@@ -5361,50 +5368,50 @@ Below floorboard</text>
 </net>
 <net name="ENGINE_POS" class="0">
 <segment>
-<label x="157.48" y="-73.66" size="1.778" layer="95" xref="yes" grouprefs="KILLSWITCHES"/>
+<label x="160.02" y="-101.6" size="1.778" layer="95" xref="yes" grouprefs="KILLSWITCHES"/>
 <pinref part="U$7" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="-73.66" x2="157.48" y2="-73.66" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="147.32" y1="-101.6" x2="160.02" y2="-101.6" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="BRAKELIGHT+" class="0">
 <segment>
-<label x="147.32" y="-142.24" size="1.778" layer="95" xref="yes" grouprefs="BRAKELIGHT_SWITCHES"/>
+<label x="144.78" y="-162.56" size="1.778" layer="95" xref="yes" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$16" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-142.24" x2="147.32" y2="-142.24" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="134.62" y1="-162.56" x2="144.78" y2="-162.56" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="BRAKELIGHT-" class="0">
 <segment>
-<label x="147.32" y="-144.78" size="1.778" layer="95" xref="yes" grouprefs="BRAKELIGHT_SWITCHES"/>
+<label x="144.78" y="-165.1" size="1.778" layer="95" xref="yes" grouprefs="BRAKELIGHT_SWITCHES"/>
 <pinref part="U$16" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="-144.78" x2="137.16" y2="-144.78" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="144.78" y1="-165.1" x2="134.62" y2="-165.1" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="78.74" y1="-73.66" x2="71.12" y2="-73.66" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="81.28" y1="-101.6" x2="73.66" y2="-101.6" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="2"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="78.74" y1="-76.2" x2="71.12" y2="-76.2" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="81.28" y1="-104.14" x2="73.66" y2="-104.14" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="1"/>
 <pinref part="U$9" gate="G$1" pin="P$2"/>
-<wire x1="20.32" y1="-73.66" x2="12.7" y2="-73.66" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="22.86" y1="-101.6" x2="15.24" y2="-101.6" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-76.2" x2="12.7" y2="-76.2" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
+<wire x1="22.86" y1="-104.14" x2="15.24" y2="-104.14" width="0.1524" layer="91" grouprefs="KILLSWITCHES"/>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
@@ -5412,56 +5419,56 @@ Below floorboard</text>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$2"/>
 <pinref part="U$17" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="-144.78" x2="25.4" y2="-144.78" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="15.24" y1="-165.1" x2="22.86" y2="-165.1" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="1"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
-<wire x1="25.4" y1="-142.24" x2="17.78" y2="-142.24" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="22.86" y1="-162.56" x2="15.24" y2="-162.56" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="PEDAL_GAS_POT" gate="G$1" pin="1"/>
 <pinref part="U$25" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-25.4" x2="58.42" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-27.94" x2="10.16" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="PEDAL_GAS_POT" gate="G$1" pin="2"/>
 <pinref part="U$25" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-30.48" x2="10.16" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$25" gate="G$1" pin="3"/>
 <pinref part="PEDAL_GAS_POT" gate="G$1" pin="3"/>
-<wire x1="58.42" y1="-30.48" x2="53.34" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-33.02" x2="5.08" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="PEDAL_BRAKE_POT" gate="G$1" pin="1"/>
 <pinref part="U$24" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="0" x2="58.42" y2="0" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="2"/>
 <pinref part="PEDAL_BRAKE_POT" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="-2.54" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="PEDAL_BRAKE_POT" gate="G$1" pin="3"/>
 <pinref part="U$24" gate="G$1" pin="3"/>
-<wire x1="53.34" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -5594,21 +5601,21 @@ Below floorboard</text>
 <segment>
 <pinref part="U$20" gate="G$1" pin="1"/>
 <pinref part="U$32" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="-142.24" x2="116.84" y2="-121.92" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
+<wire x1="114.3" y1="-162.56" x2="114.3" y2="-142.24" width="0.1524" layer="91" grouprefs="BRAKELIGHT_SWITCHES"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U$18" gate="G$1" pin="P$1"/>
 <pinref part="U$13" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="-142.24" x2="76.2" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-162.56" x2="73.66" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="2"/>
 <pinref part="U$18" gate="G$1" pin="P$2"/>
-<wire x1="76.2" y1="-144.78" x2="68.58" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-165.1" x2="66.04" y2="-165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LDS_FR" class="0">
@@ -5653,14 +5660,14 @@ Below floorboard</text>
 </net>
 <net name="PEDAL_BRAKE_POT" class="0">
 <segment>
-<wire x1="71.12" y1="-2.54" x2="78.74" y2="-2.54" width="0.1524" layer="91"/>
-<label x="78.74" y="-2.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="22.86" y1="-10.16" x2="30.48" y2="-10.16" width="0.1524" layer="91"/>
+<label x="30.48" y="-10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PEDAL_GAS_POT" class="0">
 <segment>
-<wire x1="71.12" y1="-27.94" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
-<label x="78.74" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="22.86" y1="-30.48" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="-30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ENGINE_TACH" class="0">
@@ -5683,8 +5690,8 @@ Below floorboard</text>
 </net>
 <net name="IMU" class="0">
 <segment>
-<wire x1="20.32" y1="-7.62" x2="25.4" y2="-7.62" width="0.1524" layer="91"/>
-<label x="25.4" y="-7.62" size="1.778" layer="95" xref="yes"/>
+<wire x1="35.56" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="40.64" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_PRESSURE_FRONT" class="0">
